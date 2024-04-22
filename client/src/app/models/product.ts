@@ -6,3 +6,11 @@ export interface Product {
     pictureUrl: string
     type: string
 }
+
+export interface ProductParams {
+    orderBy: string;
+    searchTerm?: string;
+    types?: string[];
+    pageNumber: number;
+    pageSize: number;
+}

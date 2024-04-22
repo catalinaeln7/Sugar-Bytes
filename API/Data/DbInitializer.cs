@@ -53,7 +53,7 @@ namespace API.Data
                     Type = "Cake",
                 },new Product
                 {
-                    Name = "Cheesecake Tropiques",
+                    Name = "Cheesecake",
                     Description =
                         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
                     Price = 5000,
