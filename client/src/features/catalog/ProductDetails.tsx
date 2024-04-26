@@ -67,10 +67,6 @@ export default function ProductDetails() {
                                 <TableCell>Type</TableCell>
                                 <TableCell>{product.type}</TableCell>
                             </TableRow>
-                            <TableRow>
-                                <TableCell>Approximate weight</TableCell>
-                                <TableCell>1.1 kg</TableCell>
-                            </TableRow>
                         </TableBody>
                     </Table>
                 </TableContainer>

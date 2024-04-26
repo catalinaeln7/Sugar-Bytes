@@ -5,9 +5,9 @@ import { useAppSelector } from "../store/configureStore";
 import SignedInMenu from "./SignedInMenu";
 
 const midLinks = [
+    {title: 'home', path: '/'},
     {title: 'catalog', path: '/catalog'},
-    {title: 'about', path: '/about'},
-    {title: 'contact', path: '/contact'},
+    {title: 'feedback', path: '/contact'},
 ]
 
 const rightLinks = [
@@ -38,7 +38,7 @@ export default function Header({darkMode, handleThemeChange} : Props) {
     const itemCount = basket?.items.reduce((sum, item) => sum + item.quantity, 0);
 
     return (
-        <AppBar position='static' sx={{ backgroundColor: '#B03F00', mb: 4 }}>
+        <AppBar position='static' sx={{ backgroundColor: '#B03F00' }}>
             <Toolbar sx={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
                 <Box display='flex' alignItems='center'>
                     <Avatar
@@ -90,7 +90,6 @@ export default function Header({darkMode, handleThemeChange} : Props) {
                             ))}
                         </List>
                     )}
-                    
                 </Box>
             </Toolbar>
         </AppBar>

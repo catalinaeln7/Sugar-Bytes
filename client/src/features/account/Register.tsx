@@ -36,7 +36,7 @@ export default function Register() {
     return (
         <Container 
             component={Paper} maxWidth="sm" 
-            sx={{display: 'flex', flexDirection: 'column', alignItems: 'center', p: 4, mt: 16}}>
+            sx={{display: 'flex', flexDirection: 'column', alignItems: 'center', p: 4, mt: 8}}>
             <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
                 <LockOutlinedIcon />
             </Avatar>

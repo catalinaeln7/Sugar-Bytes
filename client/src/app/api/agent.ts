@@ -95,11 +95,16 @@ const Account = {
     currentUser: () => requests.get('account/currentUser')
 }
 
+const Feedback = {
+    submit: (values: any) => requests.post('feedback', values)
+}
+
 const agent = {
     Catalog,
     TestErrors,
     Basket,
-    Account
+    Account,
+    Feedback
 }
 
 export default agent;
